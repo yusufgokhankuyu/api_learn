@@ -47,6 +47,7 @@ class _MyAppState extends State<MyApp> {
       ),
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.red,
           title: const Text("Restfull API "),
         ),
         body: isLoading == null
